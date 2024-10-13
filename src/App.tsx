@@ -19,7 +19,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <DynamicComponent key="" />
+      <DynamicComponent componentKey="organize-tasks-simply-9ze37z" />
       <Navbar />
       <Hero />
       <Sponsors />
