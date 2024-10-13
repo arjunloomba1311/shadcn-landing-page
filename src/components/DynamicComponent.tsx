@@ -100,7 +100,8 @@ const DynamicComponent: React.FC<DynamicComponentProps> = ({
           console.log(`Number of variants: ${variants.length}`);
 
           if (variants.length > 0) {
-            const selectedCode = variants[0];
+            const randomIndex = Math.floor(Math.random() * variants.length);
+            const selectedCode = variants[randomIndex];
             console.log(
               "Selected code (first 100 characters):",
               selectedCode.substring(0, 100)
